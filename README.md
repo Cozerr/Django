@@ -49,4 +49,24 @@ django-admin--> Django commands
     
     
     
+    
+    MYSITE/Views.py
+    #writing home tab method
+    def home(request):
+    
+    MODEL--VIEW--TEMPLATE
+    
+    Model(database) and template relation created via views.py
+    
+    
+    for tabs and webistes create urls.py under base
+    
+    URLs.py 
+    from django.urls import path
+    
+    urlpatterns[]--> dizin liste
+    
+    from . --> projenin içerisindeki doyaya erişime yarıyor
+    
+    
 
